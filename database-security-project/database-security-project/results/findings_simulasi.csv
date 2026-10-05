@@ -1,0 +1,6 @@
+id,finding,risk,root_cause,remediation,retest
+F1,Excessive privilege,High,Privilege exceeds operational need,Least privilege and REVOKE/role separation,Pass - simulated
+F2,Remote/host access too broad,High,Host/network restriction not applied,Restrict host and network allowlist,Pass - simulated
+F3,Sensitive data unprotected,High,Data at rest lacks adequate protection,Encryption and key separation,Pass - simulated
+F4,Insufficient audit trail,Medium,Audit logging not enabled/tuned,Enable audit logging and retention/rotation,Pass - simulated
+F5,Outdated/vulnerable DBMS,Critical,Patch management inadequate,Upgrade/patch and vulnerability monitoring,Fail before patch - simulated

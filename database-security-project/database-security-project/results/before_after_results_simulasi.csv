@@ -1,0 +1,6 @@
+scenario,description,trials,before_success,after_success,before_asr,after_asr,status,note
+S1,Unauthorized DB access,10,10,0,100%,0%,Pass,Simulated benchmark
+S2,Privilege abuse,10,10,0,100%,0%,Pass,Simulated benchmark
+S3,Data exposure,10,10,0,100%,0%,Pass,Simulated benchmark
+S4,Unauthorized modification,10,10,0,100%,0%,Pass,Simulated benchmark
+S5,Outdated/vulnerable DBMS,1,1,1,100%,100%,Fail*,Simulated; requires patch/upgrade
